@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/home/skxt/dorichiapi/Rev12_kyoritsu_dashboard"
+        ]
+      },
+      "git": {
+        "command": "uvx",
+        "args": [
+          "mcp-server-git",
+          "--repository",
+          "/home/skxt/dorichiapi/Rev12_kyoritsu_dashboard"
+        ]
+      }
+    }
+  }
